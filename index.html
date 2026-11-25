@@ -1,0 +1,161 @@
+
+<!--
+Section Name: Web Development I
+Project Name: Personal Portfolio Website
+Page Name: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>AARUSHI</h1>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I am a web development student.
+               This is my personal portfolio website.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlvDXvzyYgzwOm5unp9qN7x-GlTSjHqhF2D02F4WmUpA&s"
+                 alt="My profile picture"
+                 width="150">
+
+            <p>
+                I am passionate about learning web development
+                and building creative projects.
+                I enjoy learning new technologies and improving
+                my programming skills.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li>
+                    <strong>Portfolio Website:</strong>
+                    A personal website to showcase my skills
+                    and contact details.
+                </li>
+
+                <li>
+                    <strong>Medium Clone:</strong>
+                    A simple blog layout that looks like Medium,
+                    built using HTML and CSS.
+                </li>
+
+                <li>
+                    <strong>Birthday Card:</strong>
+                    A creative greeting card webpage designed
+                    with HTML structure and CSS styling.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="mailto:your-email@example.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <label for="name">Name:</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your name"
+                       required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email"
+                       required>
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message"
+                          name="message"
+                          placeholder="Enter your message"
+                          rows="4"
+                          cols="30"
+                          required></textarea>
+                <br><br>
+
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
